@@ -22,8 +22,7 @@ The Online Library Website is a Django-based web application that allows users t
   - Users can create an account by filling in a form with fields such as username, password, and email.
   - Login securely to access user-specific features.
 
-- **Search and Borrow Books**:
-  - Search for books by title, author, or category.
+- **Borrow Books**:
   - View a list of available books marked as "Available" or "Not Available" (if borrowed by another user).
   - View detailed book information on a separate book page.
   - Borrow books (only if marked as "Available").
@@ -125,5 +124,5 @@ The Online Library Website is a Django-based web application that allows users t
 └──📄 manage.py
 └──📄 db.sqlite3
 ```
-## videos
+## Videos
 
