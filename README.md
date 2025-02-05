@@ -75,25 +75,55 @@ The Online Library Website is a Django-based web application that allows users t
 ## Project Structure
 
 ```plaintext
-online-library/
-├── adm/
-│   ├── __pycache__/
-│   ├── migrations/
-│   ├── static/
-│   ├── templates/
-│   ├── admin.py
-│   ├── apps.py
-│   ├── models.py
-│   ├── tests.py
-│   ├── urls.py
-│   ├── views.py
-├── library/
-│   ├── __pycache__/
-│   ├── __init__.py
-│   ├── asgi.py
-│   ├── settings.py
-│   ├── urls.py
-│   ├── wsgi.py
-├── user/
-├── db.sqlite3
-├── manage.py
+📁 online-library
+├── 📁 adm
+│   ├── 📁 pycache
+│   ├── 📁 migrations
+│   ├── 📁 static
+│   ├── 📁 templates
+│   ├── 📄 init.py
+│   ├── 📄 admin.py
+│   ├── 📄 apps.py
+│   ├── 📄 models.py
+│   ├── 📄 tests.py
+│   ├── 📄 urls.py
+│   └── 📄 views.py
+│
+├── 📁 Authentication
+│   ├── 📁 pycache
+│   ├── 📁 migrations
+│   ├── 📁 static
+│   ├── 📁 templates
+│   ├── 📄 init.py
+│   ├── 📄 admin.py
+│   ├── 📄 apps.py
+│   ├── 📄 models.py
+│   ├── 📄 tests.py
+│   ├── 📄 urls.py
+│   └── 📄 views.py
+│
+├── 📁 library
+│   ├── 📁 pycache
+│   ├── 📄 init.py
+│   ├── 📄 asgi.py
+│   ├── 📄 settings.py
+│   ├── 📄 urls.py
+│   └── 📄 wsgi.py
+│
+└── 📁 user
+│   ├── 📁 pycache
+│   ├── 📁 migrations
+│   ├── 📁 static
+│   ├── 📁 templates
+│   ├── 📄 init.py
+│   ├── 📄 admin.py
+│   ├── 📄 apps.py
+│   ├── 📄 models.py
+│   ├── 📄 tests.py
+│   ├── 📄 urls.py
+│   ├── 📄 views.py
+└──📄 manage.py
+└──📄 db.sqlite3
+```
+## videos
+
