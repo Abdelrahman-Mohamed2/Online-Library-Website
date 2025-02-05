@@ -1,0 +1,342 @@
+* {
+  padding: 0;
+  margin: 0;
+  user-select: none;
+  box-sizing: border-box;
+}
+body {
+  /* background: #eadbc8; */
+  background: #fefaf6;
+}
+
+.nav-bar-header {
+  color: #fefaf6;
+  background-color: #102c57;
+  padding-inline: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 90px;
+  /* border-bottom: 1px solid #FEFAF6; */
+  font-family: "Roboto", sans-serif;
+}
+
+.account {
+  font-size: 21px;
+  letter-spacing: 3px;
+}
+
+.account svg {
+  vertical-align: bottom;
+}
+
+.logo span {
+  color: #fefaf6;
+  font-size: 50px;
+  letter-spacing: 5px;
+  font-family: "Lobster", sans-serif;
+  font-weight: 50;
+  margin: 10px;
+}
+
+.search-input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 210px;
+  height: 40px;
+  border-radius: 50px;
+  overflow: hidden;
+}
+
+.search-input input {
+  width: 160px;
+  height: 40px;
+  border: none;
+  outline: none;
+  background: #fefaf6;
+  padding-inline: 10px;
+}
+
+.search-input button {
+  width: 50px;
+  height: 40px;
+  border: none;
+  outline: none;
+  background: #dac0a3;
+  cursor: pointer;
+}
+
+.search-input button svg {
+  width: 18px;
+  height: 18px;
+}
+
+.nav-bar-footer {
+  color: #fefaf6;
+  background-color: #102c57;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  position: sticky;
+  top: -1px;
+  z-index: 999;
+}
+
+.nav-options {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 60%;
+}
+
+.option {
+  text-decoration: none;
+  color: #fefaf6;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  letter-spacing: 1px;
+  position: relative;
+  transition: ease-in-out 0.3s;
+}
+
+.option::after {
+  content: "";
+  background: #dac0a3;
+  width: 100%;
+  height: 2px;
+  position: absolute;
+  left: 0;
+  bottom: -15px;
+  transform: scale(0, 1);
+  transform-origin: left;
+  transition: ease-in-out 0.2s;
+  z-index: 10000;
+}
+
+.option:hover::after {
+  transform: scale(1, 1);
+}
+.option:hover {
+  color: #dac0a3;
+}
+
+.active {
+  color: #dac0a3;
+}
+
+.active::after {
+  transform: scale(1, 1);
+}
+
+/* ------------------------ */
+
+.book-details {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 100px;
+  margin-left: 200px;
+  height: 650px;
+}
+
+.book-img {
+  width: 350px;
+  height: 500px;
+  border-radius: 4px;
+  margin-left: 100px;
+  box-shadow: rgba(130, 101, 67, 0.5) 0px 7px 29px 0px;
+  transition: all 0.5s;
+}
+
+.book-img:hover {
+  box-shadow: rgba(130, 101, 67, 1) 0px 7px 29px 0px;
+}
+
+.Book-details-content {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  margin-right: 170px;
+}
+
+.Book-details-content h1 {
+  font-size: 40px;
+  font-family: sans-serif;
+  font-weight: 700;
+  color: #102c57;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  text-transform: uppercase;
+}
+.Book-details-content h2 {
+  font-size: 18px;
+  font-family: sans-serif;
+  font-weight: 700;
+  color: #00941b;
+  margin-top: 15px;
+
+  text-transform: uppercase;
+}
+.Book-details-content h3 {
+  font-size: 12px;
+  font-family: sans-serif;
+  font-weight: 700;
+  color: #6b6b6b;
+  text-transform: uppercase;
+}
+.Book-details-content h4 {
+  font-size: 13px;
+  font-family: sans-serif;
+  font-weight: 700;
+  color: #102c57;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+.Book-details-content p {
+  font-size: 14px;
+  line-height: 20px;
+  font-family: sans-serif;
+  font-weight: 200;
+  text-align: justify;
+  color: #000;
+  margin-bottom: 10px;
+  /* text-shadow: 0px 0px 50px black; */
+}
+.book-details-buttons {
+  display: flex;
+}
+.book-details-buttons button {
+  background: #826543;
+  width: 110px;
+  height: 50px;
+  font-size: 16px;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  transition: all 0.5s;
+  margin-top: 15px;
+  cursor: pointer;
+}
+.book-details-buttons a {
+  text-decoration: none;
+  background: #826543;
+  width: 110px;
+  height: 50px;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  transition: all 0.5s;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+.book-details-buttons button:hover {
+  color: #d8d8d8;
+  background: #644c31;
+}
+
+/* ------------------------ */
+
+.footer {
+  background-color: #000;
+  height: 500px;
+  width: 100%;
+  position: relative;
+}
+
+.footer-container {
+  height: 50%;
+  width: 80%;
+  border-top: 1px solid #fefaf6;
+  position: absolute;
+  top: 100px;
+  left: 140px;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+
+.footer-logo {
+  color: #fefaf6;
+  font-size: 50px;
+  letter-spacing: 5px;
+  font-family: "Lobster", sans-serif;
+  font-weight: 50;
+  margin-block: 100px;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: start;
+  color: #fefaf6;
+  font-family: "Roboto", sans-serif;
+}
+
+.footer-content p {
+  letter-spacing: 1px;
+  margin-block: 5px;
+}
+
+.footer-content a {
+  text-decoration: none;
+  cursor: pointer;
+  color: #fefaf6;
+}
+
+.footer-content svg {
+  margin-block: 5px;
+}
+
+.footer-content span {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 700;
+  margin-block: 30px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+
+.categories-div {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  background-color: #eed8bf;
+  height: 160px;
+  width: 150px;
+  left: 460px;
+  position: absolute;
+  font-family: "Roboto", sans-serif;
+  padding: 10px;
+  line-height: 20px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  transition: ease-in-out .3s;
+  opacity: 0;
+}
+
+.categories-div-link {
+  font-size: 12px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #102c57;
+}
+
+.categories-div-on{
+  opacity: 1;
+}
