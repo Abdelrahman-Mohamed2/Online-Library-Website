@@ -1,0 +1,141 @@
+body{
+    user-select: none;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    height: 100vh;
+    background:url("../img/BeFunky-photo.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    z-index: -1;
+}
+
+.ElForm{
+    position: relative;
+    padding: 50px;
+    box-sizing: border-box;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;    
+    background: rgba(16, 44, 87,0.9);
+    border-radius: 12px;
+    z-index: 1;
+    width: 410px;
+    height: 570px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.signUpText{
+    cursor: pointer;
+    transition: all 0.3s;
+    padding-left: 20px;
+    margin-block: 15px;
+    border-radius: 50px;
+    height: 30px;
+    width: 250px;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.3);
+    border: none;
+    color: rgba(255, 255, 255, 0.7);
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 1px;
+}
+
+::placeholder{
+    color: rgba(255, 255, 255, 0.7);
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 1px;
+}
+
+.signUp-title {
+    text-shadow: rgba(255, 255, 255, 0.25) 0px 5px 15px;
+    font-size: 50px;
+    font-weight: 700;
+    font-family: "Roboto", sans-serif;
+    color: rgba(255, 255, 255, 0.6);
+    letter-spacing: 3px;
+    margin-bottom: 30px;
+}
+
+.ElLabel{
+    margin-block: 30px;
+    color: rgba(255, 255, 255, 0.6);
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 1px;
+    font-size: 16px;
+}
+
+.signUpRadio{
+    margin-left: 10px;
+    cursor: pointer;
+    width: 19px;
+    height: 19px;
+    vertical-align:sub;
+}
+
+.signUpButton{
+    margin-block: 20px;
+    padding: 10px 30px;
+    background-color: rgba(255, 255, 255, 0.2);
+    font-size: 20px;
+    letter-spacing: 2px;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: "Roboto", sans-serif;
+    font-weight: 800;
+    cursor: pointer;
+    border-radius: 50px;
+    width: 200px;
+    transition: ease-in-out 0.3s;
+    border: none;
+    outline: none;
+}
+
+.signUpButton:hover{
+    color: rgba(255, 255, 255, 0.7);
+    background-color: rgba(255, 255, 255, 0.4);
+    box-shadow: rgba(255, 255, 255, 0.45) 0px 0px 25px;
+}
+
+.ElForm p{
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.6);
+    font-family: "Roboto", sans-serif;
+}
+
+.ElForm p a{
+    color: rgba(255, 255, 255, 0.7);
+    font-family: "Roboto", sans-serif;
+    color: dodgerblue;
+}
+
+.focus{
+    transition: ease-in-out 0.3s;
+    box-shadow: rgba(255, 255, 255, 0.45) 0px 0px 25px;
+}
+
+.sign-up-back{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.sign-up-back-logo span{
+    font-size: 100PX;
+    letter-spacing: 5PX;
+    font-family: "Lobster", sans-serif;
+    font-weight: 50;
+    z-index: 1;
+    text-shadow: #102C57 1px 0 2px;
+    color: #102C57;
+    position: absolute;
+    top: 270px;
+}
+
+.error{
+    margin: 10px;
+}
