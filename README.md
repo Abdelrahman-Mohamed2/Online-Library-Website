@@ -125,4 +125,5 @@ The Online Library Website is a Django-based web application that allows users t
 └──📄 db.sqlite3
 ```
 ## Videos
-https://github.com/Abdelrahman-Mohamed2/Online-Library-Website/issues/1#issue-2833937950
+https://github.com/user-attachments/assets/8941252b-8a7c-4b1e-aa5f-27ae73eb9537
+https://github.com/user-attachments/assets/7aa02507-0ab4-49cc-ad95-65ad1dbdcfc7
