@@ -129,3 +129,29 @@ The Online Library Website is a Django-based web application that allows users t
 https://github.com/user-attachments/assets/8941252b-8a7c-4b1e-aa5f-27ae73eb9537
 # User Features
 https://github.com/user-attachments/assets/7aa02507-0ab4-49cc-ad95-65ad1dbdcfc7
+
+---
+
+## Contact
+
+For further inquiries or collaboration, please contact:
+
+- **Abdelrahman Mohamed**\
+  [GitHub Profile](https://github.com/Abdelrahman-Mohamed2)
+
+- **Ephraim Youssef**\
+[GitHub Profile](https://github.com/EphraimYoussef)
+
+- **Marwan Mohamed**\
+[GitHub Profile](https://github.com/MarwanMaro999)
+
+- **Abdelrahman Kadry**\
+[GitHub Profile](https://github.com/Kadry-jr)
+
+- **Khaled Mostafa**\
+[GitHub Profile](https://github.com/khaledmostafa2)
+
+- **Abdelrhman Saeed**\
+[GitHub Profile](https://github.com/Abdelrahmaan24)
+
+---
