@@ -137,7 +137,7 @@ https://github.com/user-attachments/assets/7aa02507-0ab4-49cc-ad95-65ad1dbdcfc7
 For further inquiries or collaboration, please contact:
 
 - **Abdelrahman Mohamed**\
-  [GitHub Profile](https://github.com/Abdelrahman-Mohamed2)
+  [GitHub Profile](https://github.com/abdomohd26)
 
 - **Ephraim Youssef**\
 [GitHub Profile](https://github.com/EphraimYoussef)
